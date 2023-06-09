@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    min-height: 100vh;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+}
+
+body{
+    background-image: url("images/fondo2.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 1.25rem auto;
+}
+
+.cuadro{
+    width: 70%;
+    border: 1px dotted rgb(51, 50, 50);
+    border-radius: 20px;
+    background-color: rgb(142, 119, 184);
+    text-align: center;
+}
+
+
+.video{
+    display: block;
+    width: 70%;
+    height: calc(100vw*30/100);
+    border: 1px solid red;
+    margin: 1.25rem auto;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: blue;
+    padding: 1rem;
+    text-align: center;
+    margin-top: auto;
+}
+
+.buttons{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.buttons a{
+    text-decoration: none; 
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #fff;
+    font-size: 1.875rem;
+    text-align: center;
+    border-radius: 50%;    
+}
+
+.buttons a:hover{
+    transform: scale(1.5); 
+    background-color: rgba(189, 18, 103, 0.7);
+}
+
+p{
+    color: #fff;
+    text-align: center;
+}
